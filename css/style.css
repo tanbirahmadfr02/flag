@@ -1,0 +1,688 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #e2dede;
+}
+.container{
+    width: 1320px;
+    margin: 0 auto;
+}
+
+.item{
+    margin: 93px 0;
+}
+
+.item h3{
+    font-size: 60px;
+    font-weight: bold;
+    color: #d8ae76;
+    margin-top: 20px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+/* ===bangladesh start === */
+
+.bangladesh{
+    height: 250px;
+    width: 450px;
+    background-color: darkgreen;
+    margin:0 auto;
+    position: relative;
+}
+
+.bangladesh .circle{
+    height: 150px;
+    width: 150px;
+    background-color: darkred;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+}
+/* ===bangladesh end === */
+
+/* ===canada start === */
+.canada{
+    height: 250px;
+    width: 450px;
+    background-color: white;
+    margin:0 auto;
+    position: relative;
+}
+
+.canada .left{
+    height: 100%;
+    width: 100px;
+    background-color: #ff0000;
+}
+.canada .right{
+    height: 100%;
+    width: 100px;
+    background-color: #ff0000;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.canada .leaf{
+    height: 170px;
+    width: 170px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+}
+.canada .leaf img{
+    height: 100%;
+    width: 100%;
+}
+/* ===canada end === */
+
+/* ===malawi start === */
+.malawi{
+    height: 255px;
+    width: 450px;
+    background-color: #231f20;
+    margin:0 auto;
+    position: relative;
+}
+
+.malawi .middle{
+    height: 85px;
+    width: 100%;
+    background-color: #e31936;
+    position: absolute;
+    top: 85px;
+    left: 0;
+}
+.malawi .bottom{
+    height: 85px;
+    width: 100%;
+    background-color: #00a94f;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 99;
+}
+
+.malawi .circle1{
+    height: 170px;
+    width: 170px;
+    border-radius: 50%;
+    border: 25px solid #e31936;
+    position: absolute;
+    left: 50%;
+    top: 5%;
+    transform: translateX(-50%);
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+}
+
+.malawi .circle2{
+    height: 96px;
+    width: 93px;
+    border-radius: 50%;
+    background-color: #e31936;
+    position: absolute;
+    left: 50%;
+    top: 21%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+}
+/* ===malawi end === */
+
+/* ===finland start === */
+.finland{
+    height: 250px;
+    width: 450px;
+    background-color: white;
+    margin:0 auto;
+    position: relative;
+}
+
+.finland .horizontal{
+    height: 100%;
+    width: 60px;
+    background-color: #00337c;
+    position: absolute;
+    top: 0;
+    left: 25%;
+}
+.finland .vertical{
+    width: 100%;
+    height: 60px;
+    background-color: #00337c;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+}
+/* ===finland end === */
+
+/* ===greece part start === */
+.greece{
+    height: 270px;
+    width: 450px;
+    background-color: #0d5eaf;
+    margin:0 auto;
+    position: relative;
+}
+
+.greece .bottom1{
+    height: 30px;
+    width: 100%;
+    background-color: white;
+    position: absolute;
+    left: 0;
+    bottom: 30px;
+}
+.greece .bottom2{
+    height: 30px;
+    width: 100%;
+    background-color: white;
+    position: absolute;
+    left: 0;
+    bottom: 90px;
+}
+.greece .horizontal{
+    height: 30px;
+    width: 140px;
+    background-color: white;
+    position: absolute;
+    left: 0;
+    top: 60px;
+}
+.greece .vertical{
+    height: 150px;
+    width: 30px;
+    background-color: white;
+    position: absolute;
+    left: 55px;
+    top: 0;
+}
+
+.greece .top1{
+    height: 30px;
+    width: 310px;
+    background-color: white;
+    position: absolute;
+    right: 0;
+    top: 30px;
+}
+.greece .top2{
+    height: 30px;
+    width: 310px;
+    background-color: white;
+    position: absolute;
+    right: 0;
+    top: 90px;
+}
+/* ===greece part end === */
+
+/* ===norway flag start === */
+.norway{
+    height: 250px;
+    width: 450px;
+    background-color: #ef2d2f;
+    margin:0 auto;
+    position: relative;
+}
+
+.norway .horizontal-1{
+    height: 70px;
+    width: 100%;
+    background-color: white;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+}
+.norway .horizontal-2{
+    height: 50px;
+    width: 100%;
+    background-color: #212f63;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+}
+
+.norway .vertical-1{
+    height: 100%;
+    width: 70px;
+    background-color: white;
+    position: absolute;
+    top: 0;
+    left: 115px;
+}
+.norway .vertical-2{
+    height: 100%;
+    width: 50px;
+    background-color: #212f63;
+    position: absolute;
+    top: 0;
+    left: 125px;
+}
+/* ===norway flag end === */
+
+/* ===georgia start === */
+.georgia{
+    height: 320px;
+    width: 448px;
+    background-color: white;
+    margin:0 auto;
+    position: relative;
+}
+
+.georgia .horizontal-1{
+    width: 100%;
+    height: 64px;
+    background-color: #ec1b24;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+}
+.georgia .vertical-1{
+    height: 100%;
+    width: 64px;
+    background-color: #ec1b24;
+    position: absolute;
+    left: 50%;
+    top: 0;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+}
+
+.georgia .horizontal-2{
+    height: 20px;
+    width: 50px;
+    background-color: #ec1b24;
+    position: absolute;
+    top: 64px;
+    left: 96px;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+}
+.georgia .vertical-2{
+    width: 20px;
+    height: 50px;
+    background-color: #ec1b24;
+    position: absolute;
+    left: 96px;
+    top: 64px;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+}
+.georgia .vertical-3{
+    width: 20px;
+    height: 50px;
+    background-color: #ec1b24;
+    position: absolute;
+    left: 96px;
+    top: 256px;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+}
+.georgia .horizontal-3{
+    width: 50px;
+    height: 20px;
+    background-color: #ec1b24;
+    position: absolute;
+    left: 96px;
+    top: 256px;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+}
+
+.georgia .vertical-4{
+    width: 20px;
+    height: 50px;
+    background-color: #ec1b24;
+    position: absolute;
+    left: 352px;
+    top: 64px;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+}
+
+.georgia .horizontal-4{
+    width: 50px;
+    height: 20px;
+    background-color: #ec1b24;
+    position: absolute;
+    left: 352px;
+    top: 256px;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+}
+
+.georgia .vertical-5{
+    width: 20px;
+    height: 50px;
+    background-color: #ec1b24;
+    position: absolute;
+    left: 352px;
+    top: 256px;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+}
+
+.georgia .horizontal-5{
+    width: 50px;
+    height: 20px;
+    background-color: #ec1b24;
+    position: absolute;
+    left: 352px;
+    top: 64px;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+}
+/* ===georgia end === */
+
+/* ===honduras start === */
+.honduras{
+    height: 300px;
+    width: 450px;
+    background-color: #4579a8;
+    margin:0 auto;
+    position: relative;
+}
+
+.honduras .line{
+    height: 100px;
+    width: 100%;
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+}
+
+.honduras .star{
+    height: 35px;
+    width: 35px;
+}
+
+.honduras .star img{
+    height: 100%;
+    width: 100%;
+}
+
+.honduras .star1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+}
+
+.honduras .star2{
+    position: absolute;
+    top: 35%;
+    left: 35%;
+}
+.honduras .star3{
+    position: absolute;
+    top: 35%;
+    right: 35%;
+}
+.honduras .star4{
+    position: absolute;
+    bottom: 35%;
+    left: 35%;
+}
+.honduras .star5{
+    position: absolute;
+    bottom: 35%;
+    right: 35%;
+}
+/* ===honduras end === */
+
+/* ===US start === */
+.US{
+    height: 299px;
+    width: 500px;
+    background-color: white;
+    margin:0 auto;
+    position: relative;
+}
+
+.US .line{
+    height: 23px;
+    width: 100%;
+    background-color: #ed1b24;
+}
+
+.US .line1{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.US .line2{
+    position: absolute;
+    left: 0;
+    top: 48px;
+}
+.US .line3{
+    position: absolute;
+    left: 0;
+    top: 96px;
+}
+.US .line4{
+    position: absolute;
+    left: 0;
+    top: 144px;
+}
+.US .line5{
+    position: absolute;
+    left: 0;
+    top: 192px;
+}
+.US .line6{
+    position: absolute;
+    left: 0;
+    top: 240px;
+}
+.US .line7{
+    position: absolute;
+    left: 0;
+    top: 288px;
+}
+.US .rectangle{
+    height: 167px;
+    width: 205px;
+    background-color: #0065b3;
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.US .rectangle .stars i{
+    color: white;
+    font-size: 15px;
+}
+
+.US .rectangle .stars{
+    display: flex;
+    justify-content: center;
+    gap: 17px;
+    /*! margin-top: 20px; */
+}
+/* ===US end === */
+
+/* ===sri lanka start === */
+.sri-lanka{
+    height: 299px;
+    width: 498px;
+    border: 20px solid yellow;
+    margin:0 auto;
+    position: relative;
+    display: flex;
+}
+
+.sri-lanka .line1{
+    height: 100%;
+    width: 73px;
+    background-color: #00a650;
+}
+.sri-lanka .line2{
+    height: 100%;
+    width: 73px;
+    background-color: #faac55;
+}
+.sri-lanka .line3{
+    height: 100%;
+    width: 20px;
+    background-color: yellow;
+}
+.sri-lanka .rectangle{
+    height: 100%;
+    width: 292px;
+    background-color: #9e0621;
+    position: relative;
+}
+
+.sri-lanka .rectangle .lion{
+    height: 150px;
+    width: 170px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+}
+
+.sri-lanka .rectangle .lion img{
+    height: 100%;
+    width: 100%;
+}
+
+.sri-lanka .rectangle .corner{
+    height: 20px;
+    width: 30px;
+}
+.sri-lanka .rectangle .corner1{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.sri-lanka .rectangle .corner2{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+}
+.sri-lanka .rectangle .corner3{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+}
+.sri-lanka .rectangle .corner4{
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(-180deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+}
+
+.sri-lanka .rectangle .corner img{
+    height: 100%;
+    width: 100;
+}
+/* ===sri lanka end === */
